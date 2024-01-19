@@ -4,7 +4,7 @@
 
 - **URL:** Socket.io connection endpoint (e.g., `http://your-server:your-port`).
 - **Request Message:** The connection is initiated by the client connecting to the server using Socket.io. The client includes a handshake query with `publicKey` and `username`.
-- **Response Message:** Upon successful connection, the server emits a 'welcome' event to the connected client, providing a `sessionId` (client's `socket.id`).
+- **Response Message:** Upon successful connection, the server emits a `welcome` event to the connected client, providing a `sessionId` (client's `socket.id`).
 
 ## User Connection and Disconnection Events
 
